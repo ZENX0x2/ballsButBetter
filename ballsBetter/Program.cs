@@ -66,9 +66,6 @@ namespace ballsBetter
 
                     Console.WriteLine("Ball " + num);
                 }
-
-
-
             }
 
             catch (Exception e)
