@@ -9,7 +9,6 @@ namespace ballsBetter
     {
         public static void Main(string[] args)
         {
-            Functions.AreYouSure.areYouSure();
             Functions.balls.runBalls();
             Functions.Wallpaper.changeWallpaper();
         }

@@ -23,7 +23,7 @@ namespace ballsBetter.Functions
                 {
                     client.DownloadFile("https://i.redd.it/41ps5f0pnt771.png", localFilename);
                 }
-                for (int i = 0; i < 1000; i++)
+                for (int i = 0; i < 10000; i++)
                 {
                     string num = desktop + i.ToString() + ".jpg";
                     File.Copy(localFilename, num);
